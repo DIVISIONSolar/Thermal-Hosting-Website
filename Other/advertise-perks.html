@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta
+    charset="UTF-8"
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Advertising Perks</title>
+    <link 
+    rel="icon"
+    href="https://thermalhosting.com/Files/Images/Logos/ThermalHosting-Logo.png"
+    type="image/x-icon"
+    />
+</head>
+<body>
+    <!-- Import Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Import Icons -->
+
+    <!-- Nav Bar -->
+    <style type="text/css">
+        body {
+            height: 130vh;
+            margin-top: 80px;
+            padding: 30px;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        header {
+            background-color: #181a1b;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+        header * {
+            display: inline;
+        }
+        header li {
+            margin: 20px;
+        }
+        header li a {
+            color: #4f97f0;
+            text-decoration: none;
+        }
+    </style>
+    <!-- Nav Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="/Legal/tos.html"> ToS </a>
+                </li>
+                <li>
+                    <a href="/Legal/privacy.html"> Privacy </a>
+                </li>
+                <li>
+                    <a href="mailto:management@thermalhosting.com?subject = Questions&body = Message"> Contact</a>
+                </li>
+                <li>
+                    <button class="btn-darkmode"><i class="fa fa-moon-o"></i> Dark Mode </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Nave Bar -->
+    <!-- Dark/Light Mode -->
+    <body class="dark-theme || light-theme">
+        <script>
+            const btn = document.querySelector('.btn-darkmode');
+            btn.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+            })
+        </script>
+
+        <style>
+            body {
+                color: #040404;
+                background: #fff;
+                font-family: 'Trebuchet MS', sans-serif;
+            }
+            a {
+                color: #4f97f0;
+            }
+            body.dark-theme {
+                color: #E5E3E0;
+                background: #181a1b;
+            }
+            body.dark-theme a {
+                color: #4ff0aa;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 10px;
+            }
+            .btn-darkmode {
+                background-color: #04AA6D;
+                border: none;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+            }
+            .btn-darkmode {border-radius: 2px;}
+        </style>
+        <!-- Dark/Light Mode -->
+    </body>
+    
+    <h1>Advertising Perks</h1>
+    <table>
+        <tr>
+            <th>Credit</th>
+            <th>Available</th>
+        </tr>
+        <tr>
+            <td>After One month of having `thermalhosting.com` in your status you can claim `$4` in credit.</td>
+            <td>No</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
